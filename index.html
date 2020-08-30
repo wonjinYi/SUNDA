@@ -2,11 +2,17 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="EXPIRE" content="-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
 	<link rel="shortcut icon" href="img/favicon.ico"> 
     <title>SUNDA</title>
 	
 	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@500&display=swap');
+
+		body {
+    		font-family: 'Sunflower', sans-serif;
+		}
 		div{
 			display : flex;
 			flex-direction : column;
@@ -15,16 +21,24 @@
 		}
 		p{
 			display : inline;
-			color : #E35E6D;
+			color : #ff8181ff;
 			text-align : center;
+			padding : 10px;
 			margin : 0;
+		}
+		@media(max-width:768px){
+			img{
+				width : 90%;
+				height: auto;
+			}
 		}
 	</style>
 </head>
 <body>
 	<div id="temp">
 		<img src="img/sunda_logo.png">
-		<p>우리의 오늘을 솎아내는 곳<br>Anyone can curate our today</p>
+		<p>우리의 오늘을 솎아내는 곳</p>
+		<p>Anyone can curate our today</p>
 	</div>
 </body>
 </html>
