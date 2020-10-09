@@ -13,12 +13,18 @@
 		body {
     		font-family: 'Sunflower', sans-serif;
 			color : #ff8181ff;
-		}
-		div{
+			min-height : 100%;
 			display : flex;
-			flex-direction : column;
 			align-items : center;
 			justify-content : center;
+		}	
+		div{
+			height : 100%;
+			display : flex;
+			align-items : center;
+			justify-content : center;
+		}
+		img {
 		}
 		p{
 			display : inline;
@@ -27,24 +33,23 @@
 			padding : 10px;
 			margin : 0;
 		}
+		/*
 		@media(max-width:768px){
 			img{
 				width : 90%;
 				height: auto;
 			}
 		}
+		*/
 	</style>
 </head>
 <body>
 	<div id="temp">
-		<img src="img/sunda_logo.png">
-		<p>우리의 오늘을 솎아내는 곳</p>
-		<p>Anyone can curate our today</p>
-		<h2><b>공사중</b></h2>
+		<img src="img/sundatemp.png">
 	</div>
 </body>
 </html>
 
 <script>
-	document.getElementById('temp').style.minHeight = (window.innerHeight*0.9)+'px';
+	//document.getElementById('temp').style.minHeight = (window.innerHeight*0.9)+'px';
 </script>
