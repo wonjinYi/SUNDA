@@ -1,5 +1,5 @@
 # SUNDA
-![logo.png]
+![sunda_logo.png]
 We curate our today
 
 Anyone can curate music from Infinite Source, in SUNDA
