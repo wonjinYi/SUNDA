@@ -29,4 +29,4 @@ SUNDA의 큐레이터들은 새 동료를 기다립니다.
 
 ### Repositories
 #### for Front-end : https://github.com/wonjinYi/sunda_front (in progress)
-#### for Back-end : https://github.com/wonjinYi/sunda_back (not exist yet)
+#### for Back-end : https://github.com/wonjinYi/sunda_back (in progress)
